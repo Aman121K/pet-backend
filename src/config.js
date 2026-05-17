@@ -3,7 +3,7 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 export const config = {
-  port: Number(process.env.PORT || 3002),
+  port: Number(process.env.PORT || 3003),
   mongoUri:process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/pet_square',
   jwtSecret: process.env.JWT_SECRET || 'vikaspetvikas',
   seedAdminEmail: process.env.SEED_ADMIN_EMAIL || 'admin@petsquare.local',
